@@ -86,15 +86,32 @@
           "description": "The number of times a particular option was proposed so far to a particular profile. When this metric is present the record or time-series entity must include an IdentityMap the profile.",
           "meta:descriptionId": "option-detail##https://ns.adobe.com/experience/decisioning/propositionsProfile##description##18831"
         },
-        "xdm:selectionID": {
-          "title": "Decision Option Selection ID",
-          "type": "string",
-          "description": "Option selection ID. The selectionID of which the item was derived from."
-        },
-        "xdm:selectionType": {
-          "title": "Decision Option Selection Type",
-          "type": "string",
-          "description": "Option selection type. The selection type of which the item was derived from."
+        "xdm:selectionDetail": {
+          "title": "Selection Detail",
+          "description": "The detail of the selection of which the item was proposed.",
+          "type": "object",
+          "properties": {
+                "xdm:selectionID": {
+                    "title": "Decision Option Selection ID",
+                    "type": "string",
+                    "description": "Option selection ID. The selectionID of which the item was derived from."
+                },
+                "xdm:selectionType": {
+                    "title": "Decision Option Selection Type",
+                    "type": "string",
+                    "description": "Option selection type. The selection type of which the item was derived from."
+                },
+                "xdm:selectionName": {
+                    "title": "Decision Option Selection Name",
+                    "type": "string",
+                    "description": "Option selection name. The selection name of which the item was derived from."
+                },
+                "xdm:selectionVersion": {
+                    "title": "Decision Option Selection Version",
+                    "type": "string",
+                    "description": "Option selection version. The selection version of which the item was derived from."
+                }
+            }
         },
         "xdm:trackingToken": {
           "title": "Decision Option Tracking Token",
