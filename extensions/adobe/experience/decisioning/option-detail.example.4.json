@@ -4,7 +4,7 @@
   "xdm:selectionDetail": {
     "xdm:selectionID": "xcore:fb30c2f0a6a98e030dd107f2c531c5fe374ce410bb96b02b:184a0fc14872e39c",
     "xdm:selectionType": "manual",
-    "xdm:selectionName": "sample selection strategy name",
+    "xdm:selectionName": "sample offer name",
     "xdm:selectionVersion": "sample selection version"
   }
   "xdm:trackingToken": "Tracking Token Value"
